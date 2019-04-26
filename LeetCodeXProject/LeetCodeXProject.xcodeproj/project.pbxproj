@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E34A7C4B2270A10F00A35B64 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34A7C4A2270A10F00A35B64 /* 20.有效的括号.swift */; };
+		E396BD832272C3F000E9A1A0 /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396BD822272C3F000E9A1A0 /* 155.最小栈.swift */; };
 		E3FD474E22696B5600F1D138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD474D22696B5600F1D138 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E34A7C4A2270A10F00A35B64 /* 20.有效的括号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "20.有效的括号.swift"; path = "../../LeetCode/20.有效的括号.swift"; sourceTree = "<group>"; };
+		E396BD822272C3F000E9A1A0 /* 155.最小栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "155.最小栈.swift"; path = "../../LeetCode/155.最小栈.swift"; sourceTree = "<group>"; };
 		E3FD474A22696B5600F1D138 /* LeetCodeXProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeXProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FD474D22696B5600F1D138 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +59,7 @@
 		E3FD474C22696B5600F1D138 /* LeetCodeXProject */ = {
 			isa = PBXGroup;
 			children = (
-				E34A7C4A2270A10F00A35B64 /* 20.有效的括号.swift */,
+				E396BD822272C3F000E9A1A0 /* 155.最小栈.swift */,
 				E3FD474D22696B5600F1D138 /* main.swift */,
 			);
 			path = LeetCodeXProject;
@@ -122,8 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E396BD832272C3F000E9A1A0 /* 155.最小栈.swift in Sources */,
 				E3FD474E22696B5600F1D138 /* main.swift in Sources */,
-				E34A7C4B2270A10F00A35B64 /* 20.有效的括号.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
