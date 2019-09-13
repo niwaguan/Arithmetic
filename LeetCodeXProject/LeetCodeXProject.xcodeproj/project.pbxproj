@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E396BD852272D14C00E9A1A0 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = E396BD842272D14C00E9A1A0 /* 232.用栈实现队列.swift */; };
+		E36E859B232BAFEA000C47BE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36E859A232BAFEA000C47BE /* Queue.swift */; };
 		E3FD474E22696B5600F1D138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FD474D22696B5600F1D138 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E396BD842272D14C00E9A1A0 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "232.用栈实现队列.swift"; path = "../../LeetCode/232.用栈实现队列.swift"; sourceTree = "<group>"; };
+		E36E859A232BAFEA000C47BE /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		E3FD474A22696B5600F1D138 /* LeetCodeXProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeXProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3FD474D22696B5600F1D138 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,8 +59,8 @@
 		E3FD474C22696B5600F1D138 /* LeetCodeXProject */ = {
 			isa = PBXGroup;
 			children = (
-				E396BD842272D14C00E9A1A0 /* 232.用栈实现队列.swift */,
 				E3FD474D22696B5600F1D138 /* main.swift */,
+				E36E859A232BAFEA000C47BE /* Queue.swift */,
 			);
 			path = LeetCodeXProject;
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 		E3FD474222696B5600F1D138 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Zhibai;
 				TargetAttributes = {
@@ -122,8 +122,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E396BD852272D14C00E9A1A0 /* 232.用栈实现队列.swift in Sources */,
 				E3FD474E22696B5600F1D138 /* main.swift in Sources */,
+				E36E859B232BAFEA000C47BE /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
