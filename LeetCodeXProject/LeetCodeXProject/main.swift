@@ -47,6 +47,7 @@ func sortTests() {
     print(bubbleSort(array))
     print(insertionSort(array))
     print(selectionSort(array))
+    print(mergeSort(array))
 }
 
 sortTests()

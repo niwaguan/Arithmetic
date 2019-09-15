@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// 冒泡排序
 func bubbleSort<T>(_ array: [T]) -> [T] where T: Comparable {
     var results = array
     
@@ -29,7 +30,7 @@ func bubbleSort<T>(_ array: [T]) -> [T] where T: Comparable {
     return results
 }
 
-
+/// 插入排序
 func insertionSort<T>(_ array: [T]) -> [T] where T: Comparable {
     var result = array
     
@@ -49,6 +50,7 @@ func insertionSort<T>(_ array: [T]) -> [T] where T: Comparable {
     return result
 }
 
+/// 选择排序
 func selectionSort<T>(_ array: [T]) -> [T] where T: Comparable {
     var result = array
     for i in 0..<result.count {
@@ -64,5 +66,55 @@ func selectionSort<T>(_ array: [T]) -> [T] where T: Comparable {
             result.swapAt(position, i)
         }
     }
+    return result
+}
+
+/// 归并排序
+func mergeSort<T>(_ array: [T]) -> [T] where T: Comparable {
+    
+    func merge<T>(_ array: inout [T], from: Int, to: Int, b1: Int, e1: Int, b2: Int, e2: Int) where T: Comparable {
+        var i = b1, j = b2
+        var temp = [T]()
+        while i <= e1 && j <= e2  {
+            if array[i] < array[j] {
+                temp.append(array[i])
+                i += 1
+            } else {
+                temp.append(array[j])
+                j += 1
+            }
+        }
+        
+        while i <= e1 {
+            temp.append(array[i])
+            i += 1
+        }
+        while j <= e2 {
+            temp.append(array[j])
+            j += 1
+        }
+        
+        i = from
+        j = 0
+        while j < temp.count {
+            array[i] = temp[j]
+            i += 1
+            j += 1
+        }
+    }
+    
+    func sort<T>(_ array: inout [T], from: Int, to: Int) where T: Comparable {
+        if from >= to {
+            return
+        }
+        let middle = (from + to) / 2
+        let segment = middle + 1
+        sort(&array, from: from, to: middle)
+        sort(&array, from: segment, to: to)
+        merge(&array, from: from, to: to, b1: from, e1: middle, b2: segment, e2: to)
+    }
+    
+    var result = array
+    sort(&result, from: 0, to: result.count - 1)
     return result
 }
