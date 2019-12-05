@@ -118,3 +118,33 @@ func mergeSort<T>(_ array: [T]) -> [T] where T: Comparable {
     sort(&result, from: 0, to: result.count - 1)
     return result
 }
+
+func countingSort(_ array: [Int]) -> [Int] {
+    if (array.count <= 1) { return array }
+    // 查找最大值，以确定桶个数
+    let maxNum = array.reduce(Int.min) { max($0, $1) }
+    
+    // 申请桶
+    var counting = Array(repeating: 0, count: maxNum + 1)
+    
+    // 计数
+    for item in array {
+        counting[item] += 1
+    }
+    
+    // 累加
+    for i in 1..<counting.count {
+        counting[i] = counting[i-1] + counting[i]
+    }
+    
+    // 排序
+    var result = Array(repeating: 0, count: array.count)
+    for item in array.reversed() {
+        // 根据计数数组确定位置
+        let index = counting[item] - 1;
+        result[index] = item
+        counting[item] -= 1
+    }
+    
+    return result
+}
