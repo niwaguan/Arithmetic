@@ -19,6 +19,7 @@ class LeetCodeExampleTests: XCTestCase {
             array.append(Int(arc4random() % 100))
             count -= 1
         }
+        array = countingSort(array)
     }
 
     override func tearDown() {
@@ -28,7 +29,8 @@ class LeetCodeExampleTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let result = countingSort(array)
+        let result = binarySearch(array.first!, in: array)
+        
         print(result)
     }
 

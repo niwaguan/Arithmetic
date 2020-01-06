@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003B77D223BB6FC2006BBEB9 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B77D123BB6FC2006BBEB9 /* Search.swift */; };
 		E3072FCE232E2BD700B98751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3072FCD232E2BD700B98751 /* AppDelegate.swift */; };
 		E3072FD0232E2BD700B98751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3072FCF232E2BD700B98751 /* ViewController.swift */; };
 		E3072FD3232E2BD700B98751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3072FD1232E2BD700B98751 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003B77D123BB6FC2006BBEB9 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		E3072FCA232E2BD700B98751 /* LeetCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3072FCD232E2BD700B98751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3072FCF232E2BD700B98751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				E3072FFC232E2C1C00B98751 /* Queue.swift */,
 				E3072FFB232E2C1C00B98751 /* Sort.swift */,
+				003B77D123BB6FC2006BBEB9 /* Search.swift */,
 				E3072FCD232E2BD700B98751 /* AppDelegate.swift */,
 				E3072FCF232E2BD700B98751 /* ViewController.swift */,
 				E3072FD1232E2BD700B98751 /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				E3072FD0232E2BD700B98751 /* ViewController.swift in Sources */,
 				E3072FCE232E2BD700B98751 /* AppDelegate.swift in Sources */,
+				003B77D223BB6FC2006BBEB9 /* Search.swift in Sources */,
 				E3072FFD232E2C1C00B98751 /* Sort.swift in Sources */,
 				E3072FFE232E2C1C00B98751 /* Queue.swift in Sources */,
 			);
