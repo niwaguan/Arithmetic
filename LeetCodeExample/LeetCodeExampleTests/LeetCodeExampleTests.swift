@@ -10,16 +10,10 @@ import XCTest
 @testable import LeetCodeExample
 
 class LeetCodeExampleTests: XCTestCase {
-    
-    var array: [Int] = []
+    var solution: Solution!
 
     override func setUp() {
-        var count = 30
-        while count > 0 {
-            array.append(Int(arc4random() % 100))
-            count -= 1
-        }
-        array = countingSort(array)
+        solution = Solution()
     }
 
     override func tearDown() {
@@ -27,19 +21,11 @@ class LeetCodeExampleTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let result = binarySearch(array.first!, in: array)
-        
-        print(result)
+        XCTAssert(solution.mySqrt(522) == 22)
     }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        
-        self.measure {
-            _ = countingSort(array)
-        }
         
 //        self.measure {
 //            _ = insertionSort(array)
