@@ -21,15 +21,18 @@ class LeetCodeExampleTests: XCTestCase {
     }
 
     func testExample() {
-        XCTAssert(solution.mySqrt(522) == 22)
+        for i in 0...100000 {
+            let s = Int(sqrt(Double(i)))
+            XCTAssert(solution.isPerfectSquare(i) == (s * s == i))
+        }
     }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
         
-//        self.measure {
-//            _ = insertionSort(array)
-//        }
+        self.measure {
+            _ = solution.isPerfectSquare(1000000)
+        }
 //        
 //        self.measure {
 //            _ = selectionSort(array)
