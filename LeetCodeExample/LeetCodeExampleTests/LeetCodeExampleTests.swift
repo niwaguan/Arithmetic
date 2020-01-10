@@ -10,10 +10,9 @@ import XCTest
 @testable import LeetCodeExample
 
 class LeetCodeExampleTests: XCTestCase {
-    var solution: Solution!
-
+    var diningPhilosopher: DiningPhilosopher!
     override func setUp() {
-        solution = Solution()
+        diningPhilosopher = DiningPhilosopher()
     }
 
     override func tearDown() {
@@ -21,18 +20,12 @@ class LeetCodeExampleTests: XCTestCase {
     }
 
     func testExample() {
-        for i in 0...100000 {
-            let s = Int(sqrt(Double(i)))
-            XCTAssert(solution.isPerfectSquare(i) == (s * s == i))
-        }
+        diningPhilosopher.perform()
     }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
         
-        self.measure {
-            _ = solution.isPerfectSquare(1000000)
-        }
 //        
 //        self.measure {
 //            _ = selectionSort(array)
