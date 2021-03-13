@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0028399423C32348009EF105 /* 367.有效的完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0028399323C32347009EF105 /* 367.有效的完全平方数.swift */; };
 		003B77D223BB6FC2006BBEB9 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003B77D123BB6FC2006BBEB9 /* Search.swift */; };
 		004F66DE23C8A31400B11548 /* DiningPhilosophers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F66DD23C8A31400B11548 /* DiningPhilosophers.swift */; };
 		004F66E023C97C5C00B11548 /* ReaderWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F66DF23C97C5B00B11548 /* ReaderWriter.swift */; };
+		D684EFDC2457EC53001345DE /* 1044.最长重复子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = D684EFDB2457EC53001345DE /* 1044.最长重复子串.swift */; };
 		E3072FCE232E2BD700B98751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3072FCD232E2BD700B98751 /* AppDelegate.swift */; };
 		E3072FD0232E2BD700B98751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3072FCF232E2BD700B98751 /* ViewController.swift */; };
 		E3072FD3232E2BD700B98751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3072FD1232E2BD700B98751 /* Main.storyboard */; };
@@ -40,10 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0028399323C32347009EF105 /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "367.有效的完全平方数.swift"; path = "../../LeetCode/367.有效的完全平方数.swift"; sourceTree = "<group>"; };
 		003B77D123BB6FC2006BBEB9 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		004F66DD23C8A31400B11548 /* DiningPhilosophers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiningPhilosophers.swift; sourceTree = "<group>"; };
 		004F66DF23C97C5B00B11548 /* ReaderWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderWriter.swift; sourceTree = "<group>"; };
+		D684EFDB2457EC53001345DE /* 1044.最长重复子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "1044.最长重复子串.swift"; path = "../../LeetCode/1044.最长重复子串.swift"; sourceTree = "<group>"; };
 		E3072FCA232E2BD700B98751 /* LeetCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3072FCD232E2BD700B98751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3072FCF232E2BD700B98751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 		E3072FCC232E2BD700B98751 /* LeetCodeExample */ = {
 			isa = PBXGroup;
 			children = (
-				0028399323C32347009EF105 /* 367.有效的完全平方数.swift */,
+				D684EFDB2457EC53001345DE /* 1044.最长重复子串.swift */,
 				E3072FFC232E2C1C00B98751 /* Queue.swift */,
 				E3072FFB232E2C1C00B98751 /* Sort.swift */,
 				003B77D123BB6FC2006BBEB9 /* Search.swift */,
@@ -274,13 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0028399423C32348009EF105 /* 367.有效的完全平方数.swift in Sources */,
 				E3072FD0232E2BD700B98751 /* ViewController.swift in Sources */,
 				E3072FCE232E2BD700B98751 /* AppDelegate.swift in Sources */,
 				003B77D223BB6FC2006BBEB9 /* Search.swift in Sources */,
 				004F66DE23C8A31400B11548 /* DiningPhilosophers.swift in Sources */,
 				004F66E023C97C5C00B11548 /* ReaderWriter.swift in Sources */,
 				E3072FFD232E2C1C00B98751 /* Sort.swift in Sources */,
+				D684EFDC2457EC53001345DE /* 1044.最长重复子串.swift in Sources */,
 				E3072FFE232E2C1C00B98751 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
