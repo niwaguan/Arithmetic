@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6D698E725FC834500E3DFD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698E625FC834500E3DFD6 /* main.swift */; };
+		D6D6990A25FC836C00E3DFD6 /* 1044.最长重复子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698EF25FC836A00E3DFD6 /* 1044.最长重复子串.swift */; };
+		D6D6990B25FC836C00E3DFD6 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F025FC836A00E3DFD6 /* 20.有效的括号.swift */; };
+		D6D6990C25FC836C00E3DFD6 /* 19.删除链表的倒数第n个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F125FC836A00E3DFD6 /* 19.删除链表的倒数第n个节点.swift */; };
+		D6D6990D25FC836C00E3DFD6 /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F325FC836A00E3DFD6 /* 21.合并两个有序链表.swift */; };
+		D6D6990E25FC836C00E3DFD6 /* 9.回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FA25FC836B00E3DFD6 /* 9.回文数.swift */; };
+		D6D6990F25FC836C00E3DFD6 /* 69.x-的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */; };
+		D6D6991025FC836C00E3DFD6 /* 7.整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FC25FC836B00E3DFD6 /* 7.整数反转.swift */; };
+		D6D6991125FC836C00E3DFD6 /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FF25FC836B00E3DFD6 /* 155.最小栈.swift */; };
+		D6D6991225FC836C00E3DFD6 /* 367.有效的完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990025FC836B00E3DFD6 /* 367.有效的完全平方数.swift */; };
+		D6D6991325FC836C00E3DFD6 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990225FC836B00E3DFD6 /* 206.反转链表.swift */; };
+		D6D6991425FC836C00E3DFD6 /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990725FC836C00E3DFD6 /* 234.回文链表.swift */; };
+		D6D6991525FC836C00E3DFD6 /* 876.一手顺子.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990925FC836C00E3DFD6 /* 876.一手顺子.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6D698E125FC834500E3DFD6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6D698E325FC834500E3DFD6 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D698E625FC834500E3DFD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6D698EF25FC836A00E3DFD6 /* 1044.最长重复子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1044.最长重复子串.swift"; sourceTree = "<group>"; };
+		D6D698F025FC836A00E3DFD6 /* 20.有效的括号.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "20.有效的括号.swift"; sourceTree = "<group>"; };
+		D6D698F125FC836A00E3DFD6 /* 19.删除链表的倒数第n个节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "19.删除链表的倒数第n个节点.swift"; sourceTree = "<group>"; };
+		D6D698F225FC836A00E3DFD6 /* 7.整数反转.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "7.整数反转.js"; sourceTree = "<group>"; };
+		D6D698F325FC836A00E3DFD6 /* 21.合并两个有序链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "21.合并两个有序链表.swift"; sourceTree = "<group>"; };
+		D6D698F425FC836A00E3DFD6 /* 1.两数之和.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "1.两数之和.js"; sourceTree = "<group>"; };
+		D6D698F525FC836A00E3DFD6 /* 300.最长递增子序列.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "300.最长递增子序列.js"; sourceTree = "<group>"; };
+		D6D698F625FC836B00E3DFD6 /* 19.删除链表的倒数第n个节点.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "19.删除链表的倒数第n个节点.js"; sourceTree = "<group>"; };
+		D6D698F725FC836B00E3DFD6 /* 21.合并两个有序链表.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "21.合并两个有序链表.js"; sourceTree = "<group>"; };
+		D6D698F825FC836B00E3DFD6 /* 232.用栈实现队列.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "232.用栈实现队列.js"; sourceTree = "<group>"; };
+		D6D698F925FC836B00E3DFD6 /* 844.backspace-string-compare.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "844.backspace-string-compare.js"; sourceTree = "<group>"; };
+		D6D698FA25FC836B00E3DFD6 /* 9.回文数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "9.回文数.swift"; sourceTree = "<group>"; };
+		D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "69.x-的平方根.swift"; sourceTree = "<group>"; };
+		D6D698FC25FC836B00E3DFD6 /* 7.整数反转.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "7.整数反转.swift"; sourceTree = "<group>"; };
+		D6D698FD25FC836B00E3DFD6 /* 141.环形链表.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "141.环形链表.js"; sourceTree = "<group>"; };
+		D6D698FE25FC836B00E3DFD6 /* 322.零钱兑换.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "322.零钱兑换.js"; sourceTree = "<group>"; };
+		D6D698FF25FC836B00E3DFD6 /* 155.最小栈.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "155.最小栈.swift"; sourceTree = "<group>"; };
+		D6D6990025FC836B00E3DFD6 /* 367.有效的完全平方数.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "367.有效的完全平方数.swift"; sourceTree = "<group>"; };
+		D6D6990125FC836B00E3DFD6 /* 20.有效的括号.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "20.有效的括号.js"; sourceTree = "<group>"; };
+		D6D6990225FC836B00E3DFD6 /* 206.反转链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
+		D6D6990325FC836B00E3DFD6 /* 206.反转链表.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "206.反转链表.js"; sourceTree = "<group>"; };
+		D6D6990425FC836B00E3DFD6 /* 9.回文数.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "9.回文数.js"; sourceTree = "<group>"; };
+		D6D6990525FC836B00E3DFD6 /* 876.一手顺子.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "876.一手顺子.js"; sourceTree = "<group>"; };
+		D6D6990625FC836B00E3DFD6 /* 234.回文链表.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "234.回文链表.js"; sourceTree = "<group>"; };
+		D6D6990725FC836C00E3DFD6 /* 234.回文链表.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
+		D6D6990825FC836C00E3DFD6 /* 155.最小栈.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "155.最小栈.js"; sourceTree = "<group>"; };
+		D6D6990925FC836C00E3DFD6 /* 876.一手顺子.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "876.一手顺子.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6D698E025FC834500E3DFD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6D698DA25FC834500E3DFD6 = {
+			isa = PBXGroup;
+			children = (
+				D6D698E525FC834500E3DFD6 /* algorithm */,
+				D6D698E425FC834500E3DFD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6D698E425FC834500E3DFD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D698E325FC834500E3DFD6 /* algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6D698E525FC834500E3DFD6 /* algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				D6D698EE25FC835000E3DFD6 /* leetcode */,
+				D6D698E625FC834500E3DFD6 /* main.swift */,
+			);
+			path = algorithm;
+			sourceTree = "<group>";
+		};
+		D6D698EE25FC835000E3DFD6 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				D6D698F425FC836A00E3DFD6 /* 1.两数之和.js */,
+				D6D698F225FC836A00E3DFD6 /* 7.整数反转.js */,
+				D6D698FC25FC836B00E3DFD6 /* 7.整数反转.swift */,
+				D6D6990425FC836B00E3DFD6 /* 9.回文数.js */,
+				D6D698FA25FC836B00E3DFD6 /* 9.回文数.swift */,
+				D6D698F625FC836B00E3DFD6 /* 19.删除链表的倒数第n个节点.js */,
+				D6D698F125FC836A00E3DFD6 /* 19.删除链表的倒数第n个节点.swift */,
+				D6D6990125FC836B00E3DFD6 /* 20.有效的括号.js */,
+				D6D698F025FC836A00E3DFD6 /* 20.有效的括号.swift */,
+				D6D698F725FC836B00E3DFD6 /* 21.合并两个有序链表.js */,
+				D6D698F325FC836A00E3DFD6 /* 21.合并两个有序链表.swift */,
+				D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */,
+				D6D698FD25FC836B00E3DFD6 /* 141.环形链表.js */,
+				D6D6990825FC836C00E3DFD6 /* 155.最小栈.js */,
+				D6D698FF25FC836B00E3DFD6 /* 155.最小栈.swift */,
+				D6D6990325FC836B00E3DFD6 /* 206.反转链表.js */,
+				D6D6990225FC836B00E3DFD6 /* 206.反转链表.swift */,
+				D6D698F825FC836B00E3DFD6 /* 232.用栈实现队列.js */,
+				D6D6990625FC836B00E3DFD6 /* 234.回文链表.js */,
+				D6D6990725FC836C00E3DFD6 /* 234.回文链表.swift */,
+				D6D698F525FC836A00E3DFD6 /* 300.最长递增子序列.js */,
+				D6D698FE25FC836B00E3DFD6 /* 322.零钱兑换.js */,
+				D6D6990025FC836B00E3DFD6 /* 367.有效的完全平方数.swift */,
+				D6D698F925FC836B00E3DFD6 /* 844.backspace-string-compare.js */,
+				D6D6990525FC836B00E3DFD6 /* 876.一手顺子.js */,
+				D6D6990925FC836C00E3DFD6 /* 876.一手顺子.swift */,
+				D6D698EF25FC836A00E3DFD6 /* 1044.最长重复子串.swift */,
+			);
+			path = leetcode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6D698E225FC834500E3DFD6 /* algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6D698EA25FC834500E3DFD6 /* Build configuration list for PBXNativeTarget "algorithm" */;
+			buildPhases = (
+				D6D698DF25FC834500E3DFD6 /* Sources */,
+				D6D698E025FC834500E3DFD6 /* Frameworks */,
+				D6D698E125FC834500E3DFD6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algorithm;
+			productName = algorithm;
+			productReference = D6D698E325FC834500E3DFD6 /* algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6D698DB25FC834500E3DFD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D6D698E225FC834500E3DFD6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D6D698DE25FC834500E3DFD6 /* Build configuration list for PBXProject "algorithm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6D698DA25FC834500E3DFD6;
+			productRefGroup = D6D698E425FC834500E3DFD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6D698E225FC834500E3DFD6 /* algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6D698DF25FC834500E3DFD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6D6990A25FC836C00E3DFD6 /* 1044.最长重复子串.swift in Sources */,
+				D6D6991025FC836C00E3DFD6 /* 7.整数反转.swift in Sources */,
+				D6D6990B25FC836C00E3DFD6 /* 20.有效的括号.swift in Sources */,
+				D6D698E725FC834500E3DFD6 /* main.swift in Sources */,
+				D6D6991225FC836C00E3DFD6 /* 367.有效的完全平方数.swift in Sources */,
+				D6D6990D25FC836C00E3DFD6 /* 21.合并两个有序链表.swift in Sources */,
+				D6D6991325FC836C00E3DFD6 /* 206.反转链表.swift in Sources */,
+				D6D6991525FC836C00E3DFD6 /* 876.一手顺子.swift in Sources */,
+				D6D6990E25FC836C00E3DFD6 /* 9.回文数.swift in Sources */,
+				D6D6991125FC836C00E3DFD6 /* 155.最小栈.swift in Sources */,
+				D6D6990F25FC836C00E3DFD6 /* 69.x-的平方根.swift in Sources */,
+				D6D6990C25FC836C00E3DFD6 /* 19.删除链表的倒数第n个节点.swift in Sources */,
+				D6D6991425FC836C00E3DFD6 /* 234.回文链表.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6D698E825FC834500E3DFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6D698E925FC834500E3DFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6D698EB25FC834500E3DFD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GEP5SQYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D6D698EC25FC834500E3DFD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65GEP5SQYY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6D698DE25FC834500E3DFD6 /* Build configuration list for PBXProject "algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D698E825FC834500E3DFD6 /* Debug */,
+				D6D698E925FC834500E3DFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6D698EA25FC834500E3DFD6 /* Build configuration list for PBXNativeTarget "algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6D698EB25FC834500E3DFD6 /* Debug */,
+				D6D698EC25FC834500E3DFD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6D698DB25FC834500E3DFD6 /* Project object */;
+}
