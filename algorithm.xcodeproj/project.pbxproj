@@ -8,18 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D6D698E725FC834500E3DFD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698E625FC834500E3DFD6 /* main.swift */; };
-		D6D6990A25FC836C00E3DFD6 /* 1044.最长重复子串.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698EF25FC836A00E3DFD6 /* 1044.最长重复子串.swift */; };
-		D6D6990B25FC836C00E3DFD6 /* 20.有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F025FC836A00E3DFD6 /* 20.有效的括号.swift */; };
-		D6D6990C25FC836C00E3DFD6 /* 19.删除链表的倒数第n个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F125FC836A00E3DFD6 /* 19.删除链表的倒数第n个节点.swift */; };
-		D6D6990D25FC836C00E3DFD6 /* 21.合并两个有序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698F325FC836A00E3DFD6 /* 21.合并两个有序链表.swift */; };
-		D6D6990E25FC836C00E3DFD6 /* 9.回文数.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FA25FC836B00E3DFD6 /* 9.回文数.swift */; };
-		D6D6990F25FC836C00E3DFD6 /* 69.x-的平方根.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */; };
-		D6D6991025FC836C00E3DFD6 /* 7.整数反转.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FC25FC836B00E3DFD6 /* 7.整数反转.swift */; };
-		D6D6991125FC836C00E3DFD6 /* 155.最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698FF25FC836B00E3DFD6 /* 155.最小栈.swift */; };
-		D6D6991225FC836C00E3DFD6 /* 367.有效的完全平方数.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990025FC836B00E3DFD6 /* 367.有效的完全平方数.swift */; };
-		D6D6991325FC836C00E3DFD6 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990225FC836B00E3DFD6 /* 206.反转链表.swift */; };
-		D6D6991425FC836C00E3DFD6 /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990725FC836C00E3DFD6 /* 234.回文链表.swift */; };
-		D6D6991525FC836C00E3DFD6 /* 876.一手顺子.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6990925FC836C00E3DFD6 /* 876.一手顺子.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -193,19 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6D6990A25FC836C00E3DFD6 /* 1044.最长重复子串.swift in Sources */,
-				D6D6991025FC836C00E3DFD6 /* 7.整数反转.swift in Sources */,
-				D6D6990B25FC836C00E3DFD6 /* 20.有效的括号.swift in Sources */,
 				D6D698E725FC834500E3DFD6 /* main.swift in Sources */,
-				D6D6991225FC836C00E3DFD6 /* 367.有效的完全平方数.swift in Sources */,
-				D6D6990D25FC836C00E3DFD6 /* 21.合并两个有序链表.swift in Sources */,
-				D6D6991325FC836C00E3DFD6 /* 206.反转链表.swift in Sources */,
-				D6D6991525FC836C00E3DFD6 /* 876.一手顺子.swift in Sources */,
-				D6D6990E25FC836C00E3DFD6 /* 9.回文数.swift in Sources */,
-				D6D6991125FC836C00E3DFD6 /* 155.最小栈.swift in Sources */,
-				D6D6990F25FC836C00E3DFD6 /* 69.x-的平方根.swift in Sources */,
-				D6D6990C25FC836C00E3DFD6 /* 19.删除链表的倒数第n个节点.swift in Sources */,
-				D6D6991425FC836C00E3DFD6 /* 234.回文链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
