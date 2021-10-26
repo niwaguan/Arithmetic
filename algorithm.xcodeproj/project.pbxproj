@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		D6014D47260DE15200221433 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6014D46260DE15200221433 /* Link.swift */; };
+		D67CAD5626A701B500533079 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CAD5526A701B500533079 /* Selection.swift */; };
 		D6D698E725FC834500E3DFD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698E625FC834500E3DFD6 /* main.swift */; };
+		D6DDC73E26A8616500739463 /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDC73D26A8616500739463 /* Insertion.swift */; };
+		D6DDC74026B02F9900739463 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDC73F26B02F9900739463 /* Shell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
