@@ -10,6 +10,7 @@
 		D6014D47260DE15200221433 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6014D46260DE15200221433 /* Link.swift */; };
 		D67CAD5626A701B500533079 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CAD5526A701B500533079 /* Selection.swift */; };
 		D6963EFE2726F85000675ABC /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFD2726F85000675ABC /* CQueue.swift */; };
+		D6963F002726FD7A00675ABC /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFF2726FD7A00675ABC /* MinStack.swift */; };
 		D6D698E725FC834500E3DFD6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D698E625FC834500E3DFD6 /* main.swift */; };
 		D6DDC73E26A8616500739463 /* Insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDC73D26A8616500739463 /* Insertion.swift */; };
 		D6DDC74026B02F9900739463 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDC73F26B02F9900739463 /* Shell.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		D6014D46260DE15200221433 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		D6963EFF2726FD7A00675ABC /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		D6D698E325FC834500E3DFD6 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D698E625FC834500E3DFD6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D6D698EF25FC836A00E3DFD6 /* 1044.最长重复子串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1044.最长重复子串.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		D6D698E525FC834500E3DFD6 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D6EA0AEB26DB19D200C8B871 /* 剑指Offer */,
 				D6014D45260DE13D00221433 /* link */,
 				D6D698EE25FC835000E3DFD6 /* leetcode */,
 				D6D698E625FC834500E3DFD6 /* main.swift */,
