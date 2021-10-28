@@ -7,13 +7,6 @@
 
 import Foundation
 
-//let link = Link<String>()
-//link.insert(value: "1")
-//link.insert(value: "2")
-//link.insert(value: "3")
-//debugPrint(link.debugDescription)
-
-
-let r = ReverseLeftWords()
-let x = r.reverseLeftWords("lrloseumgh", 6)
+let ins = FindRepeatNumber()
+let x = ins.findRepeatNumber([2, 3, 1, 0, 2, 5, 3])
 print(x)
