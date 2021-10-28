@@ -7,6 +7,6 @@
 
 import Foundation
 
-let ins = FindRepeatNumber()
-let x = ins.findRepeatNumber([2, 3, 1, 0, 2, 5, 3])
+let ins = CountTarget()
+let x = ins.search([5,7,7,8,8,10], 50)
 print(x)
