@@ -17,6 +17,9 @@
 		D6627E33272C0CCD0035BC19 /* MinArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E32272C0CCD0035BC19 /* MinArray.swift */; };
 		D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */; };
 		D6627E37272CF77B0035BC19 /* FirstUniqChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E36272CF77B0035BC19 /* FirstUniqChar.swift */; };
+		D6627E3B272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E3A272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift */; };
+		D6627E3E272CFE380035BC19 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E3D272CFE380035BC19 /* Stack.swift */; };
+		D6627E40272D003C0035BC19 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E3F272D003C0035BC19 /* Queue.swift */; };
 		D67CAD5626A701B500533079 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CAD5526A701B500533079 /* Selection.swift */; };
 		D6963EFE2726F85000675ABC /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFD2726F85000675ABC /* CQueue.swift */; };
 		D6963F002726FD7A00675ABC /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFF2726FD7A00675ABC /* MinStack.swift */; };
@@ -50,6 +53,9 @@
 		D6627E32272C0CCD0035BC19 /* MinArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinArray.swift; sourceTree = "<group>"; };
 		D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
 		D6627E36272CF77B0035BC19 /* FirstUniqChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUniqChar.swift; sourceTree = "<group>"; };
+		D6627E3A272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32.从上到下打印二叉树.swift"; sourceTree = "<group>"; };
+		D6627E3D272CFE380035BC19 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		D6627E3F272D003C0035BC19 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D67CAD5526A701B500533079 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		D6963EFD2726F85000675ABC /* CQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQueue.swift; sourceTree = "<group>"; };
 		D6963EFF2726FD7A00675ABC /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
@@ -107,6 +113,15 @@
 			path = link;
 			sourceTree = "<group>";
 		};
+		D6627E3C272CFE2C0035BC19 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D6627E3D272CFE380035BC19 /* Stack.swift */,
+				D6627E3F272D003C0035BC19 /* Queue.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		D67CAD5426A7018200533079 /* sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +151,7 @@
 		D6D698E525FC834500E3DFD6 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				D6627E3C272CFE2C0035BC19 /* Foundation */,
 				D6EA0AEB26DB19D200C8B871 /* 剑指Offer */,
 				D67CAD5426A7018200533079 /* sort */,
 				D6014D45260DE13D00221433 /* link */,
@@ -159,6 +175,7 @@
 				D6D698F025FC836A00E3DFD6 /* 20.有效的括号.swift */,
 				D6D698F725FC836B00E3DFD6 /* 21.合并两个有序链表.js */,
 				D6D698F325FC836A00E3DFD6 /* 21.合并两个有序链表.swift */,
+				D6627E3A272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift */,
 				D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */,
 				D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */,
 				D6D698FD25FC836B00E3DFD6 /* 141.环形链表.js */,
@@ -257,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6963EFE2726F85000675ABC /* CQueue.swift in Sources */,
+				D6627E40272D003C0035BC19 /* Queue.swift in Sources */,
 				D6963F042727944A00675ABC /* ReverseList.swift in Sources */,
 				D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */,
 				D67CAD5626A701B500533079 /* Selection.swift in Sources */,
@@ -266,11 +284,13 @@
 				D6627E37272CF77B0035BC19 /* FirstUniqChar.swift in Sources */,
 				D64924422728E4DD001D7135 /* ReverseLeftWords.swift in Sources */,
 				D6DDC73E26A8616500739463 /* Insertion.swift in Sources */,
+				D6627E3B272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift in Sources */,
 				D655D97E272A355400538827 /* CountTarget.swift in Sources */,
 				D6DDC74026B02F9900739463 /* Shell.swift in Sources */,
 				D6627E31272B86760035BC19 /* FindNumberIn2DArray.swift in Sources */,
 				D655D97C272A330800538827 /* FindRepeatNumber.swift in Sources */,
 				D6627E33272C0CCD0035BC19 /* MinArray.swift in Sources */,
+				D6627E3E272CFE380035BC19 /* Stack.swift in Sources */,
 				D6963F022727919000675ABC /* ReversePrintLinklist.swift in Sources */,
 				D6D698E725FC834500E3DFD6 /* main.swift in Sources */,
 				D6014D47260DE15200221433 /* Link.swift in Sources */,
