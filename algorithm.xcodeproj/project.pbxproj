@@ -22,6 +22,7 @@
 		D6627E40272D003C0035BC19 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E3F272D003C0035BC19 /* Queue.swift */; };
 		D6627E42272D11D10035BC19 /* LevelOrder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E41272D11D10035BC19 /* LevelOrder2.swift */; };
 		D6627E44272D151E0035BC19 /* LevelOrder3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E43272D151E0035BC19 /* LevelOrder3.swift */; };
+		D6627E46272E44720035BC19 /* IsSubStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E45272E44720035BC19 /* IsSubStructure.swift */; };
 		D6627E48272E50410035BC19 /* TreePreorderTraversal144.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E47272E50410035BC19 /* TreePreorderTraversal144.swift */; };
 		D6627E4A272E56A50035BC19 /* TreeInorderTraversal94.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E49272E56A50035BC19 /* TreeInorderTraversal94.swift */; };
 		D6627E4C272E59D10035BC19 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E4B272E59D10035BC19 /* TreeNode.swift */; };
@@ -64,6 +65,7 @@
 		D6627E3F272D003C0035BC19 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		D6627E41272D11D10035BC19 /* LevelOrder2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder2.swift; sourceTree = "<group>"; };
 		D6627E43272D151E0035BC19 /* LevelOrder3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder3.swift; sourceTree = "<group>"; };
+		D6627E45272E44720035BC19 /* IsSubStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSubStructure.swift; sourceTree = "<group>"; };
 		D6627E47272E50410035BC19 /* TreePreorderTraversal144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreePreorderTraversal144.swift; sourceTree = "<group>"; };
 		D6627E49272E56A50035BC19 /* TreeInorderTraversal94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeInorderTraversal94.swift; sourceTree = "<group>"; };
 		D6627E4B272E59D10035BC19 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				D6627E36272CF77B0035BC19 /* FirstUniqChar.swift */,
 				D6627E41272D11D10035BC19 /* LevelOrder2.swift */,
 				D6627E43272D151E0035BC19 /* LevelOrder3.swift */,
+				D6627E45272E44720035BC19 /* IsSubStructure.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */,
 				D67CAD5626A701B500533079 /* Selection.swift in Sources */,
 				D64924402728E1CC001D7135 /* ReplaceSpace.swift in Sources */,
+				D6627E46272E44720035BC19 /* IsSubStructure.swift in Sources */,
 				D6963F002726FD7A00675ABC /* MinStack.swift in Sources */,
 				D6627E42272D11D10035BC19 /* LevelOrder2.swift in Sources */,
 				D655D980272A396200538827 /* MissingNumber.swift in Sources */,
