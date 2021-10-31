@@ -25,19 +25,20 @@ class TreePreorderTraversal144 {
             return []
         }
         var ret = [Int]()
-        
-        func search(node: TreeNode?) {
-            guard let node = node else {
-                return
-            }
-
+        var stack = [root]
+        while !stack.isEmpty {
+            let node = stack.removeLast()
+            
             ret.append(node.val)
-            search(node: node.left)
-            search(node: node.right)
+            
+            if let right = node.right {
+                stack.append(right)
+            }
+            
+            if let left = node.left {
+                stack.append(left)
+            }
         }
-        
-        search(node: root)
-        
         return ret
     }
 }
