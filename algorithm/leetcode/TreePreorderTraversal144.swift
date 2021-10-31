@@ -9,35 +9,25 @@ import Foundation
 
 class TreePreorderTraversal144 {
     
-    class TreeNode {
-        public var val: Int
-        public var left: TreeNode?
-        public var right: TreeNode?
-        public init(_ val: Int) {
-            self.val = val
-            self.left = nil
-            self.right = nil
-        }
-    }
-    
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else {
             return []
         }
         var ret = [Int]()
-        var stack = [root]
-        while !stack.isEmpty {
-            let node = stack.removeLast()
-            
-            ret.append(node.val)
-            
-            if let right = node.right {
-                stack.append(right)
+        var stack: [TreeNode] = []
+        
+        // 当前处理的node
+        var node: TreeNode? = root
+        while !stack.isEmpty || node != nil {
+            // 将该node的左子树加入栈
+            while node != nil {
+                ret.append(node!.val)
+                stack.append(node!)
+                node = node?.left
             }
             
-            if let left = node.left {
-                stack.append(left)
-            }
+            let x = stack.removeLast()
+            node = x.right
         }
         return ret
     }
