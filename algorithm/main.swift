@@ -44,3 +44,5 @@ node4.right = node9
 //print(IsSubStructure().isSubStructure(nodea4, node4))
 
 print(TreePreorderTraversal144().preorderTraversal(nodea4))
+print(TreeInorderTraversal94().inorderTraversal(nodea4))
+print(TreePostorderTraversal().postorderTraversal(nodea4))
