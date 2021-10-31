@@ -23,6 +23,7 @@
 		D6627E42272D11D10035BC19 /* LevelOrder2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E41272D11D10035BC19 /* LevelOrder2.swift */; };
 		D6627E44272D151E0035BC19 /* LevelOrder3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E43272D151E0035BC19 /* LevelOrder3.swift */; };
 		D6627E48272E50410035BC19 /* TreePreorderTraversal144.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E47272E50410035BC19 /* TreePreorderTraversal144.swift */; };
+		D6627E4A272E56A50035BC19 /* TreeInorderTraversal94.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E49272E56A50035BC19 /* TreeInorderTraversal94.swift */; };
 		D6627E4C272E59D10035BC19 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E4B272E59D10035BC19 /* TreeNode.swift */; };
 		D6627E4E272E6BAA0035BC19 /* 145. 二叉树的后序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E4D272E6BAA0035BC19 /* 145. 二叉树的后序遍历.swift */; };
 		D67CAD5626A701B500533079 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CAD5526A701B500533079 /* Selection.swift */; };
@@ -64,6 +65,7 @@
 		D6627E41272D11D10035BC19 /* LevelOrder2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder2.swift; sourceTree = "<group>"; };
 		D6627E43272D151E0035BC19 /* LevelOrder3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrder3.swift; sourceTree = "<group>"; };
 		D6627E47272E50410035BC19 /* TreePreorderTraversal144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreePreorderTraversal144.swift; sourceTree = "<group>"; };
+		D6627E49272E56A50035BC19 /* TreeInorderTraversal94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeInorderTraversal94.swift; sourceTree = "<group>"; };
 		D6627E4B272E59D10035BC19 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		D6627E4D272E6BAA0035BC19 /* 145. 二叉树的后序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. 二叉树的后序遍历.swift"; sourceTree = "<group>"; };
 		D67CAD5526A701B500533079 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				D6D698FB25FC836B00E3DFD6 /* 69.x-的平方根.swift */,
 				D6D698FD25FC836B00E3DFD6 /* 141.环形链表.js */,
 				D6627E47272E50410035BC19 /* TreePreorderTraversal144.swift */,
+				D6627E49272E56A50035BC19 /* TreeInorderTraversal94.swift */,
 				D6627E4D272E6BAA0035BC19 /* 145. 二叉树的后序遍历.swift */,
 				D6D6990825FC836C00E3DFD6 /* 155.最小栈.js */,
 				D6D698FF25FC836B00E3DFD6 /* 155.最小栈.swift */,
@@ -300,6 +303,7 @@
 				D6627E37272CF77B0035BC19 /* FirstUniqChar.swift in Sources */,
 				D64924422728E4DD001D7135 /* ReverseLeftWords.swift in Sources */,
 				D6DDC73E26A8616500739463 /* Insertion.swift in Sources */,
+				D6627E4A272E56A50035BC19 /* TreeInorderTraversal94.swift in Sources */,
 				D6627E3B272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift in Sources */,
 				D655D97E272A355400538827 /* CountTarget.swift in Sources */,
 				D6DDC74026B02F9900739463 /* Shell.swift in Sources */,
