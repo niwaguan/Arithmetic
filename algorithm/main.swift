@@ -7,9 +7,11 @@
 
 import Foundation
 
-let tree = TreeNode.buildTree(from: [])
+//let tree = TreeNode.buildTree(from: [])
+//
+//print(LevelOrder().levelOrder(tree))
+//
+//print("-----ans----")
+//print(SymmetricTree().isSymmetric(tree))
 
-print(LevelOrder().levelOrder(tree))
-
-print("-----ans----")
-print(SymmetricTree().isSymmetric(tree))
+print(MaxProfit().maxProfit([7,1,5,3,6,4]))
