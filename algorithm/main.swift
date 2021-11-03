@@ -14,4 +14,12 @@ import Foundation
 //print("-----ans----")
 //print(SymmetricTree().isSymmetric(tree))
 
-print(MaxSubArray().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+//print(MaxSubArray().maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+let array =
+[
+  [1,3,1],
+  [1,5,1],
+  [4,2,1]
+]
+
+print(GiftMaxValue().maxValue(array))

@@ -13,6 +13,7 @@
 		D655D97C272A330800538827 /* FindRepeatNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97B272A330800538827 /* FindRepeatNumber.swift */; };
 		D655D97E272A355400538827 /* CountTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97D272A355400538827 /* CountTarget.swift */; };
 		D655D980272A396200538827 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97F272A396200538827 /* MissingNumber.swift */; };
+		D661173B27321CA3001A6875 /* GiftMaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661173A27321CA3001A6875 /* GiftMaxValue.swift */; };
 		D6627E31272B86760035BC19 /* FindNumberIn2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */; };
 		D6627E33272C0CCD0035BC19 /* MinArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E32272C0CCD0035BC19 /* MinArray.swift */; };
 		D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */; };
@@ -60,6 +61,7 @@
 		D655D97B272A330800538827 /* FindRepeatNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRepeatNumber.swift; sourceTree = "<group>"; };
 		D655D97D272A355400538827 /* CountTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTarget.swift; sourceTree = "<group>"; };
 		D655D97F272A396200538827 /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
+		D661173A27321CA3001A6875 /* GiftMaxValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMaxValue.swift; sourceTree = "<group>"; };
 		D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberIn2DArray.swift; sourceTree = "<group>"; };
 		D6627E32272C0CCD0035BC19 /* MinArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinArray.swift; sourceTree = "<group>"; };
 		D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				D6627E51272ED0480035BC19 /* SymmetricTree.swift */,
 				D6627E53272FC8520035BC19 /* MaxProfit.swift */,
 				D6627E5E2730CC750035BC19 /* MaxSubArray.swift */,
+				D661173A27321CA3001A6875 /* GiftMaxValue.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D661173B27321CA3001A6875 /* GiftMaxValue.swift in Sources */,
 				D6963EFE2726F85000675ABC /* CQueue.swift in Sources */,
 				D6627E40272D003C0035BC19 /* Queue.swift in Sources */,
 				D6963F042727944A00675ABC /* ReverseList.swift in Sources */,
