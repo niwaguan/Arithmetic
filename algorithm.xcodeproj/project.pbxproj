@@ -14,6 +14,7 @@
 		D655D97E272A355400538827 /* CountTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97D272A355400538827 /* CountTarget.swift */; };
 		D655D980272A396200538827 /* MissingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97F272A396200538827 /* MissingNumber.swift */; };
 		D661173B27321CA3001A6875 /* GiftMaxValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661173A27321CA3001A6875 /* GiftMaxValue.swift */; };
+		D661173D27324883001A6875 /* TranslateNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661173C27324883001A6875 /* TranslateNum.swift */; };
 		D6627E31272B86760035BC19 /* FindNumberIn2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */; };
 		D6627E33272C0CCD0035BC19 /* MinArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E32272C0CCD0035BC19 /* MinArray.swift */; };
 		D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */; };
@@ -62,6 +63,7 @@
 		D655D97D272A355400538827 /* CountTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTarget.swift; sourceTree = "<group>"; };
 		D655D97F272A396200538827 /* MissingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissingNumber.swift; sourceTree = "<group>"; };
 		D661173A27321CA3001A6875 /* GiftMaxValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftMaxValue.swift; sourceTree = "<group>"; };
+		D661173C27324883001A6875 /* TranslateNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateNum.swift; sourceTree = "<group>"; };
 		D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberIn2DArray.swift; sourceTree = "<group>"; };
 		D6627E32272C0CCD0035BC19 /* MinArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinArray.swift; sourceTree = "<group>"; };
 		D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
@@ -248,6 +250,7 @@
 				D6627E53272FC8520035BC19 /* MaxProfit.swift */,
 				D6627E5E2730CC750035BC19 /* MaxSubArray.swift */,
 				D661173A27321CA3001A6875 /* GiftMaxValue.swift */,
+				D661173C27324883001A6875 /* TranslateNum.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				D6627E42272D11D10035BC19 /* LevelOrder2.swift in Sources */,
 				D6627E50272EBDF00035BC19 /* MirrorTree.swift in Sources */,
 				D6627E54272FC8520035BC19 /* MaxProfit.swift in Sources */,
+				D661173D27324883001A6875 /* TranslateNum.swift in Sources */,
 				D655D980272A396200538827 /* MissingNumber.swift in Sources */,
 				D6627E37272CF77B0035BC19 /* FirstUniqChar.swift in Sources */,
 				D64924422728E4DD001D7135 /* ReverseLeftWords.swift in Sources */,
