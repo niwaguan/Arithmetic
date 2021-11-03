@@ -30,6 +30,7 @@
 		D6627E50272EBDF00035BC19 /* MirrorTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E4F272EBDF00035BC19 /* MirrorTree.swift */; };
 		D6627E52272ED0480035BC19 /* SymmetricTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E51272ED0480035BC19 /* SymmetricTree.swift */; };
 		D6627E54272FC8520035BC19 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E53272FC8520035BC19 /* MaxProfit.swift */; };
+		D6627E5F2730CC760035BC19 /* MaxSubArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E5E2730CC750035BC19 /* MaxSubArray.swift */; };
 		D67CAD5626A701B500533079 /* Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CAD5526A701B500533079 /* Selection.swift */; };
 		D6963EFE2726F85000675ABC /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFD2726F85000675ABC /* CQueue.swift */; };
 		D6963F002726FD7A00675ABC /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFF2726FD7A00675ABC /* MinStack.swift */; };
@@ -76,6 +77,7 @@
 		D6627E4F272EBDF00035BC19 /* MirrorTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTree.swift; sourceTree = "<group>"; };
 		D6627E51272ED0480035BC19 /* SymmetricTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymmetricTree.swift; sourceTree = "<group>"; };
 		D6627E53272FC8520035BC19 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
+		D6627E5E2730CC750035BC19 /* MaxSubArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSubArray.swift; sourceTree = "<group>"; };
 		D67CAD5526A701B500533079 /* Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selection.swift; sourceTree = "<group>"; };
 		D6963EFD2726F85000675ABC /* CQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQueue.swift; sourceTree = "<group>"; };
 		D6963EFF2726FD7A00675ABC /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				D6627E4F272EBDF00035BC19 /* MirrorTree.swift */,
 				D6627E51272ED0480035BC19 /* SymmetricTree.swift */,
 				D6627E53272FC8520035BC19 /* MaxProfit.swift */,
+				D6627E5E2730CC750035BC19 /* MaxSubArray.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				D6627E4C272E59D10035BC19 /* TreeNode.swift in Sources */,
 				D6627E44272D151E0035BC19 /* LevelOrder3.swift in Sources */,
 				D6627E3E272CFE380035BC19 /* Stack.swift in Sources */,
+				D6627E5F2730CC760035BC19 /* MaxSubArray.swift in Sources */,
 				D6963F022727919000675ABC /* ReversePrintLinklist.swift in Sources */,
 				D6D698E725FC834500E3DFD6 /* main.swift in Sources */,
 				D6627E48272E50410035BC19 /* TreePreorderTraversal144.swift in Sources */,
