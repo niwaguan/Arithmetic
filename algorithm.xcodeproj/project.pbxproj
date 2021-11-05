@@ -17,6 +17,7 @@
 		D661173D27324883001A6875 /* TranslateNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661173C27324883001A6875 /* TranslateNum.swift */; };
 		D661174127336D92001A6875 /* DeleteLinkNodeByValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661174027336D92001A6875 /* DeleteLinkNodeByValue.swift */; };
 		D661174327336DA2001A6875 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661174227336DA2001A6875 /* ListNode.swift */; };
+		D6611745273373C4001A6875 /* LinkKthNodeFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6611744273373C4001A6875 /* LinkKthNodeFromEnd.swift */; };
 		D6627E31272B86760035BC19 /* FindNumberIn2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */; };
 		D6627E33272C0CCD0035BC19 /* MinArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E32272C0CCD0035BC19 /* MinArray.swift */; };
 		D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */; };
@@ -68,6 +69,7 @@
 		D661173C27324883001A6875 /* TranslateNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateNum.swift; sourceTree = "<group>"; };
 		D661174027336D92001A6875 /* DeleteLinkNodeByValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteLinkNodeByValue.swift; sourceTree = "<group>"; };
 		D661174227336DA2001A6875 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		D6611744273373C4001A6875 /* LinkKthNodeFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkKthNodeFromEnd.swift; sourceTree = "<group>"; };
 		D6627E30272B86760035BC19 /* FindNumberIn2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumberIn2DArray.swift; sourceTree = "<group>"; };
 		D6627E32272C0CCD0035BC19 /* MinArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinArray.swift; sourceTree = "<group>"; };
 		D6627E34272C47210035BC19 /* 35.搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35.搜索插入位置.swift"; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				D661173A27321CA3001A6875 /* GiftMaxValue.swift */,
 				D661173C27324883001A6875 /* TranslateNum.swift */,
 				D661174027336D92001A6875 /* DeleteLinkNodeByValue.swift */,
+				D6611744273373C4001A6875 /* LinkKthNodeFromEnd.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				D661173B27321CA3001A6875 /* GiftMaxValue.swift in Sources */,
 				D6963EFE2726F85000675ABC /* CQueue.swift in Sources */,
 				D6627E40272D003C0035BC19 /* Queue.swift in Sources */,
+				D6611745273373C4001A6875 /* LinkKthNodeFromEnd.swift in Sources */,
 				D6963F042727944A00675ABC /* ReverseList.swift in Sources */,
 				D6627E52272ED0480035BC19 /* SymmetricTree.swift in Sources */,
 				D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */,
