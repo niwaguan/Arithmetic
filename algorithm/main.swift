@@ -7,6 +7,5 @@
 
 import Foundation
 
-print(TranslateNum().translateNum(1))
-print(TranslateNum().translateNum(12))
-print(TranslateNum().translateNum(12258))
+let ins = MovingCount()
+print(ins.movingCount(3, 1, 0))
