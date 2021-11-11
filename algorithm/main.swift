@@ -7,5 +7,5 @@
 
 import Foundation
 
-let tree = TreeNode.buildTree(from: [3,9,20,1,2,15,7,8,9])
-print(TreeMaxDepth().maxDepth(tree))
+let tree = TreeNode.buildTree(from: [5,4,8,11,nil,13,4,7,2,nil,nil,5,1])
+print(TreePathSum().pathSum(tree, 22))
