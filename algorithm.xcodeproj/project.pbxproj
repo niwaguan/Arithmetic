@@ -42,6 +42,7 @@
 		D6841AAA2738BFC600CD8E7A /* TreeKthLargest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6841AA92738BFC600CD8E7A /* TreeKthLargest.swift */; };
 		D6841AAE273B5A7D00CD8E7A /* Quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6841AAD273B5A7D00CD8E7A /* Quick.swift */; };
 		D6841AB0273B913B00CD8E7A /* ArrayKthLeastNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6841AAF273B913B00CD8E7A /* ArrayKthLeastNumbers.swift */; };
+		D6841AB2273CA78F00CD8E7A /* TreeMaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6841AB1273CA78F00CD8E7A /* TreeMaxDepth.swift */; };
 		D6963EFE2726F85000675ABC /* CQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFD2726F85000675ABC /* CQueue.swift */; };
 		D6963F002726FD7A00675ABC /* MinStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963EFF2726FD7A00675ABC /* MinStack.swift */; };
 		D6963F022727919000675ABC /* ReversePrintLinklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6963F012727919000675ABC /* ReversePrintLinklist.swift */; };
@@ -99,6 +100,7 @@
 		D6841AA92738BFC600CD8E7A /* TreeKthLargest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeKthLargest.swift; sourceTree = "<group>"; };
 		D6841AAD273B5A7D00CD8E7A /* Quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick.swift; sourceTree = "<group>"; };
 		D6841AAF273B913B00CD8E7A /* ArrayKthLeastNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayKthLeastNumbers.swift; sourceTree = "<group>"; };
+		D6841AB1273CA78F00CD8E7A /* TreeMaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeMaxDepth.swift; sourceTree = "<group>"; };
 		D6963EFD2726F85000675ABC /* CQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CQueue.swift; sourceTree = "<group>"; };
 		D6963EFF2726FD7A00675ABC /* MinStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinStack.swift; sourceTree = "<group>"; };
 		D6963F012727919000675ABC /* ReversePrintLinklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReversePrintLinklist.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				D6841AA7273803A300CD8E7A /* MovingCount.swift */,
 				D6841AA92738BFC600CD8E7A /* TreeKthLargest.swift */,
 				D6841AAF273B913B00CD8E7A /* ArrayKthLeastNumbers.swift */,
+				D6841AB1273CA78F00CD8E7A /* TreeMaxDepth.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				D6627E52272ED0480035BC19 /* SymmetricTree.swift in Sources */,
 				D6627E35272C47210035BC19 /* 35.搜索插入位置.swift in Sources */,
 				D67CAD5626A701B500533079 /* Selection.swift in Sources */,
+				D6841AB2273CA78F00CD8E7A /* TreeMaxDepth.swift in Sources */,
 				D64924402728E1CC001D7135 /* ReplaceSpace.swift in Sources */,
 				D661174327336DA2001A6875 /* ListNode.swift in Sources */,
 				D6841AAA2738BFC600CD8E7A /* TreeKthLargest.swift in Sources */,
