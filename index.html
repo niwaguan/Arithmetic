@@ -5,10 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- <script src="./LeetCode/155.最小栈.js"></script> -->
-    <script src="./algorithm/剑指Offer/DeepCopy.js"></script>
+    <!-- <script src="./algorithm/剑指Offer/DeepCopy.js"></script> -->
     <title>Document</title>
   </head>
   <body>
     invoke `testfunc` function to test LRUCache
   </body>
+  <script>
+    function buildTreeFromArray(array) {
+      function TreeNode(val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+      }
+      if (!array || array.length <= 0 || !array[0]) {
+        return null;
+      }
+      let root = new TreeNode(array[0]);
+      let queue = [root];
+      let valueIndex = 1;
+      while (queue.length > 0) {
+        const node = queue.pop();
+        if (valueIndex < array.length) {
+          node.left = new TreeNode(array[valueIndex]);
+        }
+        if (node.left) {
+          queue.unshift(node.left);
+        }
+        valueIndex += 1;
+
+        if (valueIndex < array.length) {
+          node.right = new TreeNode(array[valueIndex]);
+        }
+        if (node.right) {
+          queue.unshift(node.right);
+        }
+        valueIndex += 1;
+      }
+      return root;
+    }
+
+    function midorderLoopTree(tree) {
+      let nodes = [];
+      function mid(node) {
+        if (!node) {
+          return;
+        }
+        mid(node.left);
+        nodes.push(node.val);
+        mid(node.right);
+      }
+      mid(tree);
+      return nodes;
+    }
+
+    function printLink(node) {
+      let values = [];
+      let n = node;
+      while (n) {
+        values.push(n.val);
+        n = n.next;
+      }
+      console.log(values);
+    }
+    var lowestCommonAncestor = function (root, p, q) {
+      if (!root) {
+        return root;
+      }
+
+      const searchPath = (node, target) => {
+        const pathNodes = [];
+        let cur = node;
+        while (cur) {
+          pathNodes.push(cur);
+          if (cur === target) {
+            break;
+          } else if (cur.val > target.val) {
+            cur = cur.left;
+          } else {
+            cur = cur.right;
+          }
+        }
+
+        return pathNodes;
+      };
+      let path1 = searchPath(root, p);
+      let path2 = searchPath(root, q);
+      let index = 0;
+      while (
+        index < path1.length &&
+        index < path2.length &&
+        path1[index] === path2[index]
+      ) {
+        index += 1;
+      }
+      return path1[index - 1];
+    };
+
+    let tree = buildTreeFromArray([6, 2, 8, 0, 4, 7, 9, null, null, 3, 5]);
+    console.log(midorderLoopTree(tree));
+    console.log(lowestCommonAncestor(tree, 2, 8).val);
+  </script>
 </html>
