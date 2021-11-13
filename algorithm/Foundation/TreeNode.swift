@@ -57,6 +57,39 @@ class TreeNode {
         return root
     }
     
+    
+    /// 根据二叉树先序遍历和中序遍历构建二叉树
+    /// [3,9,20,15,7]
+    /// [9,3,15,20,7]
+    /// - Parameters:
+    ///   - preorder: 先序遍历序列
+    ///   - inorder: 中序遍历序列
+    /// - Returns: 根节点
+    static func buldTreeFrom(preorder: [Int], inorder: [Int]) -> TreeNode? {
+        // 先序遍历序列中，每一个元素都是一个子树的根
+        // 根据先序遍历的根，在中序序列中找左右子树
+        guard preorder.count > 0 else {
+            return nil
+        }
+        
+        func buildNode(at index: Int, from: Int, to: Int) -> TreeNode? {
+            guard index >= 0, index < preorder.count,
+                  from <= to,
+                  let inorderIndex = inorder.firstIndex(of: preorder[index])  else {
+                return nil
+            }
+            // 根节点索引index
+            let root = TreeNode(preorder[index])
+            // 根据先序遍历序列，左子树根+1
+            root.left = buildNode(at: index + 1, from: from, to: inorderIndex - 1)
+            // 右子树节点为 根节点 + 左子树长度 + 1
+            root.right = buildNode(at: index + (inorderIndex - from) + 1, from: inorderIndex + 1, to: to)
+            return root
+        }
+        
+        return buildNode(at: 0, from: 0, to: preorder.count - 1)
+    }
+    
     @discardableResult
     /// 递归先序遍历
     func preorderByRecursive() -> TreeNode {

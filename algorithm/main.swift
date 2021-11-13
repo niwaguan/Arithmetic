@@ -7,5 +7,5 @@
 
 import Foundation
 
-let tree = TreeNode.buildTree(from: [5,4,8,11,nil,13,4,7,2,nil,nil,5,1])
-print(TreePathSum().pathSum(tree, 22))
+let tree = TreeNode.buldTreeFrom(preorder: [3,9,20,15,7], inorder: [9,3,15,20,7])
+tree?.preorderByLoop()
