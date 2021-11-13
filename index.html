@@ -17,6 +17,22 @@
         this.val = val;
         this.left = null;
         this.right = null;
+        this.findNodeByValue = function (value) {
+          let stack = [this];
+          while (stack.length > 0) {
+            const node = stack.pop();
+            if (node.val === value) {
+              return node;
+            }
+            if (node.left) {
+              stack.push(node.left);
+            }
+            if (node.right) {
+              stack.push(node.right);
+            }
+          }
+          return null;
+        };
       }
       if (!array || array.length <= 0 || !array[0]) {
         return null;
@@ -73,37 +89,59 @@
         return root;
       }
 
-      const searchPath = (node, target) => {
-        const pathNodes = [];
-        let cur = node;
-        while (cur) {
-          pathNodes.push(cur);
-          if (cur === target) {
-            break;
-          } else if (cur.val > target.val) {
-            cur = cur.left;
-          } else {
-            cur = cur.right;
-          }
+      let pathP = [],
+        pathPResolved = false;
+      let pathQ = [],
+        pathQResolved = false;
+      function searchPath(node) {
+        if (!node) {
+          return;
         }
+        if (!pathPResolved) {
+          pathP.push(node);
+        }
+        if (!pathQResolved) {
+          pathQ.push(node);
+        }
+        if (node === p) {
+          pathPResolved = true;
+        } else if (node === q) {
+          pathQResolved = true;
+        }
+        if (pathPResolved && pathQResolved) {
+          return;
+        }
+        searchPath(node.left);
+        searchPath(node.right);
+        if (!pathPResolved) {
+          pathP.pop();
+        }
+        if (!pathQResolved) {
+          pathQ.pop();
+        }
+      }
 
-        return pathNodes;
-      };
-      let path1 = searchPath(root, p);
-      let path2 = searchPath(root, q);
+      searchPath(root);
+
       let index = 0;
       while (
-        index < path1.length &&
-        index < path2.length &&
-        path1[index] === path2[index]
+        index < pathP.length &&
+        index < pathQ.length &&
+        pathP[index] === pathQ[index]
       ) {
         index += 1;
       }
-      return path1[index - 1];
+      return pathP[index - 1];
     };
 
-    let tree = buildTreeFromArray([6, 2, 8, 0, 4, 7, 9, null, null, 3, 5]);
+    let tree = buildTreeFromArray([1, 2]);
     console.log(midorderLoopTree(tree));
-    console.log(lowestCommonAncestor(tree, 2, 8).val);
+    console.log(
+      lowestCommonAncestor(
+        tree,
+        tree.findNodeByValue(1),
+        tree.findNodeByValue(2)
+      ).val
+    );
   </script>
 </html>
