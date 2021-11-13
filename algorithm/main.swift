@@ -7,5 +7,8 @@
 
 import Foundation
 
-let tree = TreeNode.buldTreeFrom(preorder: [3,9,20,15,7], inorder: [9,3,15,20,7])
-tree?.preorderByLoop()
+print(TreeVerifyBinaryPostorder().verifyPostorder([1,6,3,2,5]))
+print(TreeVerifyBinaryPostorder().verifyPostorder([7, 5]))
+print(TreeVerifyBinaryPostorder().verifyPostorder([2, 5]))
+print(TreeVerifyBinaryPostorder().verifyPostorder([1,3,2,6,5]))
+print(TreeVerifyBinaryPostorder().verifyPostorder([1, 3, 2, 6, 8, 7, 5]))
