@@ -42,7 +42,7 @@
       let valueIndex = 1;
       while (queue.length > 0) {
         const node = queue.pop();
-        if (valueIndex < array.length) {
+        if (valueIndex < array.length && array[valueIndex]) {
           node.left = new TreeNode(array[valueIndex]);
         }
         if (node.left) {
@@ -50,7 +50,7 @@
         }
         valueIndex += 1;
 
-        if (valueIndex < array.length) {
+        if (valueIndex < array.length && array[valueIndex]) {
           node.right = new TreeNode(array[valueIndex]);
         }
         if (node.right) {
@@ -133,15 +133,70 @@
       }
       return pathP[index - 1];
     };
+    // 二叉搜索树转双向链表
+    var treeToDoublyList = function (root) {
+      if (!root) {
+        return root;
+      }
+      let ret = [];
+      let stack = [];
+      let cur = root;
+      while (stack.length > 0 || cur) {
+        while (cur) {
+          stack.push(cur);
+          cur = cur.left;
+        }
+        const node = stack.pop();
+        ret.push(node);
+        cur = node.right;
+      }
+      let pre = ret[ret.length - 1];
+      for (let i = 0; i < ret.length; ++i) {
+        let node = ret[i];
+        let next = ret[(i + 1) % ret.length];
+        node.left = pre;
+        node.right = next;
+        pre = node;
+      }
+      return ret[0];
+    };
 
-    let tree = buildTreeFromArray([1, 2]);
-    console.log(midorderLoopTree(tree));
-    console.log(
-      lowestCommonAncestor(
-        tree,
-        tree.findNodeByValue(1),
-        tree.findNodeByValue(2)
-      ).val
-    );
+    let tree = buildTreeFromArray([
+      28,
+      -98,
+      67,
+      null,
+      -89,
+      62,
+      null,
+      -97,
+      -25,
+      null,
+      64,
+      null,
+      null,
+      -72,
+      -9,
+      null,
+      null,
+      -88,
+      -41,
+      null,
+      -7,
+      null,
+      -78,
+      -53,
+      null,
+      null,
+      2,
+      -85,
+      -77,
+      -69,
+      -42,
+      -1,
+    ]);
+    let ret = midorderLoopTree(tree);
+    console.log(ret);
+    console.log(treeToDoublyList(tree));
   </script>
 </html>
