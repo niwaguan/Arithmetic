@@ -7,6 +7,8 @@
 
 import Foundation
 
+print(Math.findContinuousSequence(of:20))
+
 print(TreeVerifyBinaryPostorder().verifyPostorder([1,6,3,2,5]))
 print(TreeVerifyBinaryPostorder().verifyPostorder([7, 5]))
 print(TreeVerifyBinaryPostorder().verifyPostorder([2, 5]))

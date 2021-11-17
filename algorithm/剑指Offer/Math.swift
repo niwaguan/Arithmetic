@@ -85,4 +85,28 @@ class Math {
         
         return [x, y]
     }
+    
+    /// 滑动窗口求和
+    static func findContinuousSequence(of target: Int) -> [[Int]] {
+        var ret = [[Int]]()
+        
+        // [left...right]
+        var left = 1, right = 1
+        var sum = 1
+        while left < target {
+            if sum < target {
+                right += 1
+                sum += right
+            } else if sum > target {
+                sum -= left
+                left += 1
+            } else {
+                ret.append((left...right).map { $0 })
+                right += 1
+                sum += right
+            }
+        }
+        
+        return ret
+    }
 }
