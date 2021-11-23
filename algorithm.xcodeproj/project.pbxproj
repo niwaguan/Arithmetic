@@ -11,6 +11,7 @@
 		D624914B2745F62100E2FD44 /* SpiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624914A2745F62100E2FD44 /* SpiralOrder.swift */; };
 		D624914D2747371900E2FD44 /* IsNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624914C2747371900E2FD44 /* IsNumber.swift */; };
 		D624915D274BC32200E2FD44 /* ValidateStackSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624915C274BC32200E2FD44 /* ValidateStackSequences.swift */; };
+		D624915F274C7BC600E2FD44 /* PrintNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624915E274C7BC600E2FD44 /* PrintNumbers.swift */; };
 		D64924402728E1CC001D7135 /* ReplaceSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649243F2728E1CC001D7135 /* ReplaceSpace.swift */; };
 		D64924422728E4DD001D7135 /* ReverseLeftWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64924412728E4DD001D7135 /* ReverseLeftWords.swift */; };
 		D655D97C272A330800538827 /* FindRepeatNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655D97B272A330800538827 /* FindRepeatNumber.swift */; };
@@ -76,6 +77,7 @@
 		D624914A2745F62100E2FD44 /* SpiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralOrder.swift; sourceTree = "<group>"; };
 		D624914C2747371900E2FD44 /* IsNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsNumber.swift; sourceTree = "<group>"; };
 		D624915C274BC32200E2FD44 /* ValidateStackSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateStackSequences.swift; sourceTree = "<group>"; };
+		D624915E274C7BC600E2FD44 /* PrintNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintNumbers.swift; sourceTree = "<group>"; };
 		D649243F2728E1CC001D7135 /* ReplaceSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceSpace.swift; sourceTree = "<group>"; };
 		D64924412728E4DD001D7135 /* ReverseLeftWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLeftWords.swift; sourceTree = "<group>"; };
 		D655D97B272A330800538827 /* FindRepeatNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRepeatNumber.swift; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				D624914A2745F62100E2FD44 /* SpiralOrder.swift */,
 				D624914C2747371900E2FD44 /* IsNumber.swift */,
 				D624915C274BC32200E2FD44 /* ValidateStackSequences.swift */,
+				D624915E274C7BC600E2FD44 /* PrintNumbers.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				D6DDC73E26A8616500739463 /* Insertion.swift in Sources */,
 				D6627E4A272E56A50035BC19 /* TreeInorderTraversal94.swift in Sources */,
 				D6841AB0273B913B00CD8E7A /* ArrayKthLeastNumbers.swift in Sources */,
+				D624915F274C7BC600E2FD44 /* PrintNumbers.swift in Sources */,
 				D624915D274BC32200E2FD44 /* ValidateStackSequences.swift in Sources */,
 				D624914D2747371900E2FD44 /* IsNumber.swift in Sources */,
 				D6627E3B272CFDBD0035BC19 /* 32.从上到下打印二叉树.swift in Sources */,
