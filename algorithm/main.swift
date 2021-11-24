@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(PrintNumbers().printNumbers(3))
+let ret = Permutation().permutation("abb")
+print(ret.count, ret)
